@@ -1,4 +1,4 @@
-// src/theme.js
+
 import { createTheme } from '@mui/material/styles';
 
 const lightBlue = {
@@ -40,5 +40,4 @@ export const darkTheme = createTheme({
   typography,
 });
 
-// Export default as lightTheme to avoid breaking changes in imports
 export default lightTheme;

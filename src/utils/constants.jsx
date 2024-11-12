@@ -29,13 +29,13 @@ import person8 from '../assets/person8.jpg';
 import person9 from '../assets/person9.jpg';
 import person10 from '../assets/person10.jpg';
 import person11 from '../assets/person11.jpg';
-const defaultApplicationDate = new Date().toISOString().split('T')[0]; // e.g., "2024-01-01"
-const defaultInterviewDate = new Date(new Date().setDate(new Date().getDate() + 7)).toISOString().split('T')[0]; // 7 days later
+const defaultApplicationDate = new Date().toISOString().split('T')[0];
+const defaultInterviewDate = new Date(new Date().setDate(new Date().getDate() + 7)).toISOString().split('T')[0]; 
 const randomDate = () => {
   const start = new Date(2023, 0, 1); // Start date
   const end = new Date(); // Current date
   const date = new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
-  return date.toISOString().split('T')[0]; // Ensure format is YYYY-MM-DD
+  return date.toISOString().split('T')[0]; 
 };
 
 const randomResumeLink = (name) => `https://drive.google.com/file/d/1KDuHds6fLuEDminT6wPa3p1RXZWSWdob/preview`;

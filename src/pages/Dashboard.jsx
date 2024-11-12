@@ -62,7 +62,7 @@ const JobDashboard = () => {
     navigate(`/job/${jobId}`);
   };
   const handleDeleteJob = (jobId) => {
-    deleteJob(jobId); // Call the deleteJob function from JobContext
+    deleteJob(jobId);
     toast.success("Job deleted successfully", {
       position: "top-right",
       autoClose: 3000,
