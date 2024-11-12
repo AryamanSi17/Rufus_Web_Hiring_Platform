@@ -9,11 +9,9 @@ Rufus is an interactive, feature-rich web hiring platform designed to streamline
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
-- [Configuration](#configuration)
 - [Running the Application](#running-the-application)
 - [Directory Structure](#directory-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -38,13 +36,37 @@ Rufus is an interactive, feature-rich web hiring platform designed to streamline
 To get started with Rufus locally, ensure you have the following prerequisites installed:
 
 - **Node.js** (v14 or later)
-- **npm** or **yarn**
+- **npm** 
 
 ---
 
 ## **Installation**
 
-### **1. Clone the Repository**
+1. **Clone the Repository**  
+   Clone the project to your local machine:
+   ```bash
+   git clone https://github.com/your-username/rufus-hiring-platform.git
+   cd rufus-hiring-platform
+   ```
+
+2.**Install Dependencies**
+Install the required dependencies using npm or yarn:
 ```bash
-git clone https://github.com/your-username/rufus-hiring-platform.git
-cd rufus-hiring-platform
+npm install
+ ```
+##**Running the Application**
+Start the Development Server
+
+Run the development server to launch the application locally:
+```bash
+   npm run dev
+```
+
+##**Contributing**
+-Fork the repository.
+-Create a feature branch.
+-Commit your changes.
+-Push to your branch.
+-Create a Pull Request.
+
+
