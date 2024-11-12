@@ -10,7 +10,6 @@ Rufus is an interactive, feature-rich web hiring platform designed to streamline
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
-- [Directory Structure](#directory-structure)
 - [Contributing](#contributing)
 
 ---
